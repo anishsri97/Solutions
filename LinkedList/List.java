@@ -1,5 +1,4 @@
 package Solutions.LinkedList;
-
 public class List 
 {
    Node head=null;
@@ -29,6 +28,7 @@ public class List
        if(head!=null && head.data==value)
        {
            System.out.println("Deleted "+ value);
+           head=head.next;
            return;
            
        }
@@ -56,5 +56,6 @@ public class List
           System.out.print("["+temp.data+"]"+" - >");
           temp=temp.next;
       }
+      System.out.println();
     }
 }
