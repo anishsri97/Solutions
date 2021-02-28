@@ -1,11 +1,12 @@
-import java.util.*;
-import DLinkedList.*;
-public class Test 
+package Solutions.LinkedList;
+import Solutions.LinkedList.List;
+import Solutions.LinkedList.Node;
+public class test 
 {
    public static void main(String args[])
    {
-     LinkedList list = new LinkedList();
-     list.add(23);
-    
-   }    
+       List list = new List();
+       list.insert(1);
+       list.display();
+   }
 }

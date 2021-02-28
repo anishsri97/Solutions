@@ -1,4 +1,4 @@
-package Data-Structures-and-Algorithms.LinkedList;
+package Solutions.LinkedList;
 
 public class Node 
 {
