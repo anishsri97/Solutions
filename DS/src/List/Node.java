@@ -1,4 +1,4 @@
-package Solutions.LinkedList;
+package List;
 
 public class Node 
 {
